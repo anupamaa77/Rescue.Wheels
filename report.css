@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url("abstract-black-background-gradient-that-looks-modern-700-233087612-transformed.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-button-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#home-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+#home-button i {
+    margin-right: 8px;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.85); /* Slightly transparent white */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Softer shadow */
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+    text-align: left;
+    margin-top: 60px; /* Add space between the container and the top of the screen */
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #444; /* Slightly darker color for better readability */
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+button {
+    background-color: #172218;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #213143;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
